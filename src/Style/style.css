@@ -3,6 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #E5E5E5;
+}
+.header{
+    background-color: white;
+}
+.text-grey{
+    color:#6F7383;
+}
+.text-danger{
+    color:#fd4100;
+}
+.mt-32{
+    margin-top: 32px;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.logocontainer{
+    width: 160px;
+    height: 46px ;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.row{
+    display: flex;
+}
 .col-1 {
     flex: 0 0 auto;
     width: 8.33333333%;
