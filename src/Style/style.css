@@ -297,4 +297,44 @@ hr {
     border-radius: 14px;
     margin-top: 16px;
   }
-  
+
+.car_name{
+    font-family: 'Helvetica Neue LT GEO';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #272A37;
+}
+
+.car_year{
+    font-family: 'Helvetica Neue LT GEO';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #8C929B;
+}
+
+.description_container{
+
+}
+
+.car_ganbajeba{
+    font-family: 'TBC Sailec';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+color: #FF3B30;
+
+}
+
+.flag_container{
+    width: 16px;
+height: 16px
+}
+
+.justify-content-end {
+    justify-content: end;
+}
