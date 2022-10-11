@@ -345,6 +345,13 @@ input:checked+.slider:before {
     justify-content: end;
 }
 
+.car_ganbajeba2 {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    color: #26B753;
+}
+
 .car_place {
     font-style: normal;
     font-weight: 400;
@@ -352,7 +359,8 @@ input:checked+.slider:before {
     line-height: 14px;
     color: #6F7383;
 }
-.car_place{
+
+.car_place {
     width: 95px;
     height: 14px;
     display: flex;
@@ -365,27 +373,26 @@ input:checked+.slider:before {
     display: flex;
     justify-content: center;
     justify-content: end;
-    margin-left: 16px ;
-    margin-right: 8px ;
+    margin-left: 16px;
+    margin-right: 8px;
 }
-.icon_container{
+
+.icon_container {
     width: 16px;
 }
-.description{
-font-size: 12px;
+
+.description {
+    font-size: 12px;
 }
 
-.mt26{
-margin-top: 26px;
+.mt26 {
+    margin-top: 26px;
 }
 
-.mt19{
+.mt19 {
     margin-top: 19px;
 }
 
-.mf-300{
+.mf-300 {
     margin-left: 380px;
 }
-
-
-
