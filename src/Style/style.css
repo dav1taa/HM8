@@ -210,16 +210,17 @@ hr {
     border-radius: 12px 12px 0px 0px;
 }
 
-.mgl-8{
+.mgl-8 {
     margin-left: 8px;
 }
 
-.filter-box-footer{
+.filter-box-footer {
     background: #FFFFFF;
     box-shadow: 0px 2px 16px rgba(39, 42, 55, 0.13);
     padding: 24px;
 }
-.search_btn{
+
+.search_btn {
     color: white;
     width: 100%;
     background: #FD4100;
@@ -237,15 +238,15 @@ hr {
     display: inline-block;
     width: 60px;
     height: 34px;
-  }
-  
-  .switch input { 
+}
+
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  
-  .slider {
+}
+
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -255,9 +256,9 @@ hr {
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  .slider:before {
+}
+
+.slider:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -267,74 +268,124 @@ hr {
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  input:checked + .slider {
+}
+
+input:checked+.slider {
     background-color: #000000;
-  }
-  
-  input:focus + .slider {
+}
+
+input:focus+.slider {
     box-shadow: 0 0 1px #000000;
-  }
-  
-  input:checked + .slider:before {
+}
+
+input:checked+.slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
+}
 
-  .card{
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.card {
     background-color: white;
     padding: 13px;
     border-radius: 14px;
     margin-top: 16px;
-  }
+}
 
-.car_name{
+.car_name {
     font-family: 'Helvetica Neue LT GEO';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-color: #272A37;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #272A37;
 }
 
-.car_year{
+.car_year {
     font-family: 'Helvetica Neue LT GEO';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-color: #8C929B;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8C929B;
 }
 
-.description_container{
+.description_container {}
 
-}
-
-.car_ganbajeba{
+.car_ganbajeba {
     font-family: 'TBC Sailec';
-font-style: normal;
-font-weight: 500;
-font-size: 11px;
-line-height: 13px;
-color: #FF3B30;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FF3B30;
 
 }
 
-.flag_container{
+.flag_container {
     width: 16px;
-height: 16px
+    height: 16px
 }
 
 .justify-content-end {
     justify-content: end;
 }
+
+.car_ganbajeba {
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+}
+
+.car_place {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #6F7383;
+}
+.car_place{
+    width: 95px;
+    height: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flag_container {
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+    margin-left: 16px ;
+    margin-right: 8px ;
+}
+.icon_container{
+    width: 16px;
+}
+.description{
+font-size: 12px;
+}
+
+.mt26{
+margin-top: 26px;
+}
+
+.mt19{
+    margin-top: 19px;
+}
+
+.mf-300{
+    margin-left: 380px;
+}
+
+
+
